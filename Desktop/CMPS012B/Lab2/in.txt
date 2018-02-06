@@ -1,6 +1,0 @@
-abc defg
-hi
-jkl mnop q
-
-rstu v
-wxyz
