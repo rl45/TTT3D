@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <LINK rel="stylesheet" href="css/styles.css" type="text/css">
+        <title> Creating a Virtual World </title>
+    </head>
+
+    <body onload="main()">
+        <div>Lawrence Tam, James Egan, Raymond Lee: CMPS160 Computer Graphics, Final 1 </div>
+        <div id="canvas_display">
+            <canvas id="webgl">
+                Please use a browser that supports "canvas"
+            </canvas>
+            <canvas id="hud">
+                Please use a browser that supports "canvas"
+            </canvas>
+        </div>
+
+        <div id="DOC">
+            <p>
+                scroll up and down to zoom in and out
+
+                Choose Weapon <input id="fileInput" type="file" size="60" />
+                <input id="OBJButton" type="button" value="Add OBJ To Scene" ;" />
+            </p>
+
+        </div>
+
+        <!-- Include external libs -->
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-render.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/webgl-loader.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="lib/cuon-matrix.js"></script>
+
+        <!-- Include shaders -->
+        <script src="src/graphics/shaders/shader.js"></script>
+        <script src="src/graphics/shaders/water_shader.js"></script>
+        <script src="src/graphics/shaders/asg4.js"></script>
+        <script src="src/graphics/shaders/asg3.js"></script>
+        <script src="src/graphics/shaders/asg1.js"></script>
+        <script src="src/graphics/shaders/asg5.js"></script>
+        <script src="src/graphics/shaders/asg6.js"></script>
+
+        <!-- Include Base code -->
+        <script src="src/graphics/geometry/vertex.js"></script>
+        <script src="src/graphics/geometry/geometry.js"></script>
+        <script src="src/graphics/geometry/shapes/triangle.js"></script>
+        <script src="src/graphics/geometry/shapes/custom.js"></script>
+        <script src="src/graphics/renderer.js"></script>
+        <script src="src/graphics/scene.js"></script>
+        <script src="src/graphics/camera.js"></script>
+        <script src="src/graphics/light.js"></script>
+        <script src="src/main.js"></script>
+        <script src="src/menu.js"></script>
+        <script src="src/input.js"></script>
+        <script src="src/scripts.js"></script>
+
+        <script src="src/graphics/geometry/shapes/flatSquare.js"></script>
+        <script src="src/graphics/geometry/shapes/gridPlane.js"></script>
+        <script src="src/graphics/geometry/shapes/cube.js"></script>
+        <script src="src/graphics/geometry/shapes/skyCube.js"></script>
+        <script src="src/graphics/geometry/shapes/sphere.js"></script>
+        <script src="src/graphics/geometry/shapes/rotatingCube.js"></script>
+        <script src="src/graphics/geometry/shapes/wallCube.js"></script>
+        <script src="src/graphics/geometry/shapes/fish.js"></script>
+        <script src="src/graphics/geometry/shapes/terrainTexture.js"></script>
+        <script src="src/graphics/geometry/shapes/water.js"></script>
+
+
+        <!-- Include hitbox stuff -->
+        <script src="src/collision/hitboxHandler.js"></script>
+        <script src="src/collision/hitbox.js"></script>
+        <script src="src/collision/hitboxes/AABBHitbox.js"></script>
+        <script src="src/collision/hitboxes/pointHitbox.js"></script>
+        <script src="src/collision/hitboxes/sphereHitbox.js"></script>
+
+        <!-- Include seafloor stuff -->
+        <script src="src/seascape/seascape.js"></script>
+        <script src="src/seascape/terrain.js"></script> 
+        
+        <!-- Include Ocean waves -->
+        <script src="src/waves/waves.js"></script>
+        <script src="src/waves/terrainExtension.js"></script>
+
+
+    </body>
+</html>

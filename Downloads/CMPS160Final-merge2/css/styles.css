@@ -1,0 +1,30 @@
+/* remove the border */
+body {
+	background-color: white;
+}
+
+/* make the canvas the size of the viewport */
+#canvas_display {
+    width: 100%;
+    height: 100;
+    display: block;
+}
+
+#webgl{
+    position: absolute;
+    z-index: 0;  
+    width: 97vw;
+    height: 95vh;
+}
+
+#hud {
+    position: absolute;
+    z-index: 1;
+    width: 97vw;
+    height: 95vh;
+}
+
+#DOC{
+    position: relative;
+    top: 100vh;
+}

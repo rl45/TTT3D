@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\lib",
+    "\\src",
+    "\\src\\graphics",
+    "\\src\\graphics\\geometry",
+    "\\src\\graphics\\geometry\\shapes",
+    "\\src\\graphics\\shaders"
+  ],
+  "SelectedNode": "\\src\\input.js",
+  "PreviewInSolutionExplorer": false
+}
